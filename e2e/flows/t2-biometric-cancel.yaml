@@ -1,0 +1,6 @@
+appId: ${APP_ID}
+---
+- tapOn: "Crypto"
+- tapOn: ".*Read Key via Biometric Prompt.*"
+- assertVisible: ".*Authentication (CANCELLED|REJECTED).*"
+- assertNotVisible: ".*Active Master Key in Memory.*"

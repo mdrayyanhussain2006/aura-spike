@@ -1,0 +1,7 @@
+appId: ${APP_ID}
+---
+- tapOn: "Crypto"
+- tapOn: "1\\. Generate & Save Key.*"
+- assertVisible: ".*Key stored in Keystore.*"
+- tapOn: ".*Open SQLCipher DB.*"
+- assertVisible: ".*SQLCipher v4.*"

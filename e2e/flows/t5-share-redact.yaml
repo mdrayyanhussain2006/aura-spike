@@ -1,0 +1,6 @@
+appId: ${APP_ID}
+---
+- assertVisible: "${CANARY} Call [REDACTED_PHONE]"
+- assertNotVisible:
+    text: ".*98765 43210.*"
+    below: "Sanitized Output.*"

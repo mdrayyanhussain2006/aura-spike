@@ -1,0 +1,9 @@
+appId: ${APP_ID}
+---
+- tapOn: "Perf (1k)"
+- assertVisible: ".*Task 5: 1,000 List Items.*"
+- scroll
+- scroll
+- scroll
+- scroll
+- scroll

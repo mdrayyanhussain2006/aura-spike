@@ -39,3 +39,13 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# E2E test results
+e2e-results/
+
+# Scratch & evidence
+ClaudeChat.txt
+evidence*.txt
+*.xml
+*.db
+.idea/

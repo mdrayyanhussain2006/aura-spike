@@ -1,0 +1,4 @@
+appId: ${APP_ID}
+---
+- assertVisible: "${CANARY} Clean payload without sensitive data"
+- assertVisible: ".*REDACTED_.*"
